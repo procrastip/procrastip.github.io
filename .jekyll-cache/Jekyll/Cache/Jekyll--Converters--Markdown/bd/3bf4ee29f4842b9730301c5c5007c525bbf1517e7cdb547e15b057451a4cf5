@@ -1,0 +1,142 @@
+I"�<p><a href="https://casual-effects.com/markdeep">Markdeep</a> is a free and simple tool that turns any Markdown file into a self-contained HTML file that can be viewed in a web browser. There’s nothing to install and there’s no service to register for — you simply add one line of code to the bottom of your Markdown file. This is a great option if you need to quickly view a Markdown file in a web browser or share a Markdown file with someone who needs to view the rendered output.</p>
+
+<p>Using Markdeep is a three-part process:</p>
+
+<ol>
+  <li>
+    <p>Add the following tag for Markdeep on a single line at the bottom of a Markdown file.</p>
+
+    <p><code class="highlighter-rouge">&lt;!-- Markdeep: --&gt;&lt;style class="fallback"&gt;body{visibility:hidden;white-space:pre;font-family:monospace}&lt;/style&gt;&lt;script src="markdeep.min.js" charset="utf-8"&gt;&lt;/script&gt;&lt;script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"&gt;&lt;/script&gt;&lt;script&gt;window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")&lt;/script&gt;</code></p>
+  </li>
+  <li>Rename the Markdown file to add the <code class="highlighter-rouge">.md.html</code> extension (i.e., <code class="highlighter-rouge">myfile.md.html</code>).</li>
+  <li>Open the file in a web browser to see the rendered output.</li>
+</ol>
+
+<p>This tool has a lot of features beyond what’s described here. For instance, you can choose from a variety of templates to customize the look of your page. Markdeep also supports diagrams, LaTeX typesetting for equations, and much more. Check out the excellent <a href="https://casual-effects.com/markdeep">documentation</a> for the full details.</p>
+
+<h3 id="markdeep-markdown-support">Markdeep Markdown Support</h3>
+
+<p>Markdeep provides support for the following Markdown elements (tested using the default Markdeep web template).</p>
+
+<table class="table table-bordered" style="font-size: 14px">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Support</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/basic-syntax#headings">Headings</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
+      <td class="table-danger">No</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#bold">Bold</a></td>
+      <td class="table-warning">Partial</td>
+      <td>Asterisks in the middle of a word (i.e., <code>in**middle**here</code>) are rendered literally.</td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#italic">Italic</a></td>
+      <td class="table-warning">Partial</td>
+      <td>Asterisks in the middle of a word (i.e., <code>in*middle*here</code>) are rendered literally.</td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#code">Code</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#links">Links</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#images-1">Images</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#tables">Tables</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
+      <td class="table-success">Yes</td>
+      <td>Syntax highlighting is also supported.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
+      <td class="table-danger">No</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+:ET

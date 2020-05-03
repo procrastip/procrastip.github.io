@@ -1,0 +1,62 @@
+I"6<p>To denote a word or phrase as code, enclose it in backticks (<code class="highlighter-rouge">`</code>).</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">At the command prompt, type `nano`.</code></td>
+      <td><code class="highlighter-rouge">At the command prompt, type &lt;code&gt;nano&lt;/code&gt;. </code></td>
+      <td>At the command prompt, type <code class="highlighter-rouge">nano</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="escaping-backticks">Escaping Backticks</h3>
+
+<p>If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (<code>``</code>).</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>``Use `code` in your Markdown file.``</code></td>
+      <td><code class="highlighter-rouge">&lt;code&gt;Use `code` in your Markdown file.&lt;/code&gt;</code></td>
+      <td><code>Use `code` in your Markdown file.</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="code-blocks">Code Blocks</h3>
+
+<p>To create code blocks, indent every line of the block by at least four spaces or one tab.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;html&gt;
+      &lt;head&gt;
+      &lt;/head&gt;
+    &lt;/html&gt;
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+</code></pre></div></div>
+
+<div class="alert alert-info">
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.
+</div>
+:ET

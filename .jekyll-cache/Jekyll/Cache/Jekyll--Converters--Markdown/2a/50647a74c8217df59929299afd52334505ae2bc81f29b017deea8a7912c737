@@ -1,0 +1,85 @@
+I"|<p>To add a table, use three or more hyphens (<code class="highlighter-rouge">---</code>) to create each column’s header, and use pipes (<code class="highlighter-rouge">|</code>) to separate each column. You can optionally add pipes on either end of the table.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Cell widths can vary, as shown below. The rendered output will look the same.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+</code></pre></div></div>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
+</div>
+
+<h3 id="alignment">Alignment</h3>
+
+<p>You can align text in the columns to the left, right, or center by adding a colon (<code class="highlighter-rouge">:</code>) to the left, right, or on both side of the hyphens within the header row.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Syntax</th>
+      <th style="text-align: center">Description</th>
+      <th style="text-align: right">Test Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Header</td>
+      <td style="text-align: center">Title</td>
+      <td style="text-align: right">Here’s this</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Paragraph</td>
+      <td style="text-align: center">Text</td>
+      <td style="text-align: right">And more</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="formatting-text-in-tables">Formatting Text in Tables</h3>
+
+<p>You can format the text within tables. For example, you can add <a href="/basic-syntax/#links">links</a>, <a href="/basic-syntax/#code-1">code</a> (words or phrases in backticks (<code class="highlighter-rouge">`</code>) only, not <a href="/basic-syntax/#code-blocks">code blocks</a>), and <a href="/basic-syntax/#emphasis">emphasis</a>.</p>
+
+<p>You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.</p>
+
+<h3 id="escaping-pipe-characters-in-tables">Escaping Pipe Characters in Tables</h3>
+
+<p>You can display a pipe (<code class="highlighter-rouge">|</code>) character in a table by using its HTML character code (<code class="highlighter-rouge">&amp;#124;</code>).</p>
+:ET

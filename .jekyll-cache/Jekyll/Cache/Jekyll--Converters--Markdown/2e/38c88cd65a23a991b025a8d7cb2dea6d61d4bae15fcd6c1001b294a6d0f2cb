@@ -1,0 +1,9 @@
+I"‰<p>You can strikethrough words by putting a horizontal line through the center of them. The result looks <del>like this</del>. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (<code class="highlighter-rouge">~~</code>) before and after the words.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~~The world is flat.~~ We now know that the world is round.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><del>The world is flat.</del> We now know that the world is round.</p>
+:ET

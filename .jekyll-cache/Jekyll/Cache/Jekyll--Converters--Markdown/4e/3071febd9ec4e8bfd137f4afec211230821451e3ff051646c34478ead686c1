@@ -1,0 +1,71 @@
+I"�
+<p>To create a line break (<code class="highlighter-rouge">&lt;br&gt;</code>), end a line with two or more spaces, and then type return.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          This is the first line. &nbsp;<br />
+          And this is the second line.
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">&lt;p&gt;This is the first line.&lt;br&gt;<br />
+
+        And this is the second line.&lt;/p&gt;</code>
+      </td>
+      <td>
+        <p>This is the first line.<br />   
+        And this is the second line.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="line-break-best-practices">Line Break Best Practices</h3>
+
+<p>You can use two or more spaces (referred to as “trailing whitespace”) for line breaks in nearly every Markdown application, but it’s controversial. It’s hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the <code class="highlighter-rouge">&lt;br&gt;</code> HTML tag.</p>
+
+<p>For compatibility, use trailing white space or the <code class="highlighter-rouge">&lt;br&gt;</code> HTML tag at the end of the line.</p>
+
+<p>There are two other options I don’t recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (<code class="highlighter-rouge">\</code>) at the end of the line, but not all Markdown applications support this, so it isn’t a great option from a compatibility perspective. And at least a couple lightweight markup languages don’t require anything at the end of the line — just type return and they’ll create a line break.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          First line with two spaces after. &nbsp;<br />
+          And the next line.<br /><br />
+
+          First line with the HTML tag after.&lt;br&gt;<br />
+          And the next line.<br /><br />
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+        First line with a backslash after.\<br />
+        And the next line.<br /><br />
+
+        First line with nothing after.<br />
+        And the next line.<br /><br />
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+:ET

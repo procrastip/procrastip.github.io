@@ -1,0 +1,20 @@
+I"�<p>Many Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t <a href="/basic-syntax/#links">used brackets</a>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://www.example.com
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><a href="http://www.example.com">http://www.example.com</a></p>
+
+<h2 id="disabling-automatic-url-linking">Disabling Automatic URL Linking</h2>
+
+<p>If you don’t want a URL to be automatically linked, you can remove the link by <a href="/basic-syntax/#code">denoting the URL as code</a> with backticks.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`http://www.example.com`
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><code class="highlighter-rouge">http://www.example.com</code></p>
+:ET

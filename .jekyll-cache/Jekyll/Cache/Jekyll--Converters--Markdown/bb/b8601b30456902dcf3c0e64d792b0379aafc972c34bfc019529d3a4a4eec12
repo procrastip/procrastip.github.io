@@ -1,0 +1,18 @@
+I"�<p>Not all Markdown applications support extended syntax elements. You’ll need to check whether or not the lightweight markup language your application is using supports the extended syntax elements you want to use. If it doesn’t, it may still be possible to enable extensions in your Markdown processor.</p>
+
+<h3 id="lightweight-markup-languages">Lightweight Markup Languages</h3>
+
+<p>There are several lightweight markup languages that are <em>supersets</em> of Markdown. They include Gruber’s basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:</p>
+
+<ul>
+  <li><a href="https://commonmark.org">CommonMark</a></li>
+  <li><a href="https://github.github.com/gfm/">GitHub Flavored Markdown (GFM)</a></li>
+  <li><a href="https://michelf.ca/projects/php-markdown/extra/">Markdown Extra</a></li>
+  <li><a href="https://fletcherpenney.net/multimarkdown/">MultiMarkdown</a></li>
+  <li><a href="https://rmarkdown.rstudio.com/">R Markdown</a></li>
+</ul>
+
+<h3 id="markdown-processors">Markdown Processors</h3>
+
+<p>There are <a href="https://github.com/markdown/markdown.github.com/wiki/Implementations">dozens of Markdown processors</a> available. Many of them allow you to add extensions that enable extended syntax elements. Check your processor’s documentation for more information.</p>
+:ET

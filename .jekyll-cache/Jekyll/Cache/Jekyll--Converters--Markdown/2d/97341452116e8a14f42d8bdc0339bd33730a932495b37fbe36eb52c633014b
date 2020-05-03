@@ -1,0 +1,145 @@
+I" <p>To create a link, enclose the link text in brackets (e.g., <code class="highlighter-rouge">[Duck Duck Go]</code>) and then follow it immediately with the URL in parentheses (e.g., <code class="highlighter-rouge">(https://duckduckgo.com)</code>).</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>My favorite search engine is <a href="https://duckduckgo.com">Duck Duck Go</a>.</p>
+
+<h3 id="adding-titles">Adding Titles</h3>
+
+<p>You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>My favorite search engine is <a href="https://duckduckgo.com" title="The best search engine for privacy">Duck Duck Go</a>.</p>
+
+<h3 id="urls-and-email-addresses">URLs and Email Addresses</h3>
+
+<p>To quickly turn a URL or email address into a link, enclose it in angle brackets.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;https://www.markdownguide.org&gt;
+&lt;fake@example.com&gt;
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><a href="https://www.markdownguide.org">https://www.markdownguide.org</a><br />
+<a href="mailto:fake@example.com">fake@example.com</a></p>
+
+<h3 id="formatting-links">Formatting Links</h3>
+
+<p>To <a href="#emphasis">emphasize</a> links, add asterisks before and after the brackets and parentheses. To denote links as <a href="#code">code</a>, add backticks in the brackets.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br />
+This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br />
+See the section on <a href="#code"><code class="highlighter-rouge">code</code></a>.</p>
+
+<h3 id="reference-style-links">Reference-style Links</h3>
+
+<p>Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.</p>
+
+<h4 id="formatting-the-first-part-of-the-link">Formatting the First Part of the Link</h4>
+
+<p>The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you’re storing elsewhere in your document.</p>
+
+<p>Although not required, you can include a space between the first and second set of brackets. The label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.</p>
+
+<p>This means the following example formats are roughly equivalent for the first part of the link:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">[hobbit-hole][1]</code></li>
+  <li><code class="highlighter-rouge">[hobbit-hole] [1]</code></li>
+</ul>
+
+<h4 id="formatting-the-second-part-of-the-link">Formatting the Second Part of the Link</h4>
+
+<p>The second part of a reference-style link is formatted with the following attributes:</p>
+
+<ol>
+  <li>The label, in brackets, followed immediately by a colon and at least one space (e.g., <code class="highlighter-rouge">[label]: </code>).</li>
+  <li>The URL for the link, which you can optionally enclose in angle brackets.</li>
+  <li>The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.</li>
+</ol>
+
+<p>This means the following example formats are all roughly equivalent for the second part of the link:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle</code></li>
+  <li><code class="highlighter-rouge">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"</code></li>
+  <li><code class="highlighter-rouge">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'</code></li>
+  <li><code class="highlighter-rouge">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)</code></li>
+  <li><code class="highlighter-rouge">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; "Hobbit lifestyles"</code></li>
+  <li><code class="highlighter-rouge">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; 'Hobbit lifestyles'</code></li>
+  <li><code class="highlighter-rouge">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; (Hobbit lifestyles)</code></li>
+</ul>
+
+<p>You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).</p>
+
+<h4 id="an-example-putting-the-parts-together">An Example Putting the Parts Together</h4>
+
+<p>Say you add a URL as a <a href="#links">standard URL link</a> to a paragraph and it looks like this in Markdown:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
+eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"), and that means comfort.
+</code></pre></div></div>
+
+<p>Though it may point to interesting additional information, the URL as displayed really doesn’t add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
+eat: it was a [hobbit-hole][1], and that means comfort.
+
+[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; "Hobbit lifestyles"
+</code></pre></div></div>
+
+<p>In both instances above, the rendered output would be identical:</p>
+
+<blockquote>
+  <p>In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to  eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>, and that means comfort.</p>
+</blockquote>
+
+<p>and the HTML for the link would be:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles"&gt;hobbit-hole&lt;/a&gt;
+</code></pre></div></div>
+
+<h3 id="link-best-practices">Link Best Practices</h3>
+
+<p>Markdown applications don’t agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with <code class="highlighter-rouge">%20</code>.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+        [link](https://www.example.com/my%20great%20page)
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+        [link](https://www.example.com/my great page)
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+:ET

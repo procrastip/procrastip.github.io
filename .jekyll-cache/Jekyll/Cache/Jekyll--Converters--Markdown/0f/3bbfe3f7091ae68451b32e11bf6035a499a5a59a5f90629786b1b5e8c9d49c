@@ -1,0 +1,72 @@
+I"$<p>To create a blockquote, add a <code class="highlighter-rouge">&gt;</code> in front of a paragraph.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<blockquote>
+  <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
+
+<h3 id="blockquotes-with-multiple-paragraphs">Blockquotes with Multiple Paragraphs</h3>
+
+<p>Blockquotes can contain multiple paragraphs. Add a <code class="highlighter-rouge">&gt;</code> on the blank lines between the paragraphs.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<blockquote>
+  <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+  <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+
+<h3 id="nested-blockquotes">Nested Blockquotes</h3>
+
+<p>Blockquotes can be nested. Add a <code class="highlighter-rouge">&gt;&gt;</code> in front of the paragraph you want to nest.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<blockquote>
+  <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+  <blockquote>
+    <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="blockquotes-with-other-elements">Blockquotes with Other Elements</h3>
+
+<p>Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<blockquote>
+  <h4 class="no-anchor">The quarterly results look great!</h4>
+
+  <ul>
+    <li>Revenue was off the chart.</li>
+    <li>Profits were higher than ever.</li>
+  </ul>
+
+  <p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+:ET

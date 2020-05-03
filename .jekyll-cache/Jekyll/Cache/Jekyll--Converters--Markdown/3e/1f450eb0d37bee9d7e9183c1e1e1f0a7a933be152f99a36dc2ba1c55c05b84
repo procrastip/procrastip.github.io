@@ -1,0 +1,385 @@
+I")<p>You can organize items into ordered and unordered lists.</p>
+
+<h3 id="ordered-lists">Ordered Lists</h3>
+
+<p>To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      <code class="highlighter-rouge">
+        1. First item<br />
+        2. Second item<br />
+        3. Third item<br />
+        4. Fourth item
+      </code>
+    </td>
+    <td>
+      <code class="highlighter-rouge">
+        &lt;ol&gt;<br />
+          &lt;li&gt;First item&lt;/li&gt;<br />
+          &lt;li&gt;Second item&lt;/li&gt;<br />
+          &lt;li&gt;Third item&lt;/li&gt;<br />
+          &lt;li&gt;Fourth item&lt;/li&gt;<br />
+        &lt;/ol&gt;
+      </code>
+    </td>
+    <td>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+      </ol>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br />
+          1. Second item<br />
+          1. Third item<br />
+          1. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item&lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br />
+          8. Second item<br />
+          3. Third item<br />
+          5. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item&lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br />
+          2. Second item<br />
+          3. Third item<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;1. Indented item<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;2. Indented item<br />
+          4. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item<br />
+              &lt;ol&gt;<br />
+                &lt;li&gt;Indented item&lt;/li&gt;<br />
+                &lt;li&gt;Indented item&lt;/li&gt;<br />
+              &lt;/ol&gt;<br />
+            &lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item
+            <ol>
+              <li>Indented item</li>
+              <li>Indented item</li>
+            </ol>
+          </li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="unordered-lists">Unordered Lists</h3>
+
+<p>To create an unordered list, add dashes (<code class="highlighter-rouge">-</code>), asterisks (<code class="highlighter-rouge">*</code>), or plus signs (<code class="highlighter-rouge">+</code>) in front of line items. Indent one or more items to create a nested list.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br />
+          - Second item<br />
+          - Third item<br />
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item&lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          * First item<br />
+          * Second item<br />
+          * Third item<br />
+          * Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item&lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          + First item<br />
+          * Second item<br />
+          - Third item<br />
+          + Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item&lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br />
+          - Second item<br />
+          - Third item<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br />
+            &lt;li&gt;First item&lt;/li&gt;<br />
+            &lt;li&gt;Second item&lt;/li&gt;<br />
+            &lt;li&gt;Third item<br />
+              &lt;ul&gt;<br />
+                &lt;li&gt;Indented item&lt;/li&gt;<br />
+                &lt;li&gt;Indented item&lt;/li&gt;<br />
+              &lt;/ul&gt;<br />
+            &lt;/li&gt;<br />
+            &lt;li&gt;Fourth item&lt;/li&gt;<br />
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item
+            <ul>
+              <li>Indented item</li>
+              <li>Indented item</li>
+            </ul>
+          </li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="adding-elements-in-lists">Adding Elements in Lists</h3>
+
+<p>To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.</p>
+
+<h4 id="paragraphs">Paragraphs</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*   This is the first list item.
+*   Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+*   And here's the third list item.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<ul>
+  <li>This is the first list item.</li>
+  <li>
+    <p>Here’s the second list item.</p>
+
+    <p>I need to add another paragraph below the second list item.</p>
+  </li>
+  <li>And here’s the third list item.</li>
+</ul>
+
+<h4 id="blockquotes">Blockquotes</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*   This is the first list item.
+*   Here's the second list item.
+
+    &gt; A blockquote would look great below the second list item.
+
+*   And here's the third list item.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<ul>
+  <li>This is the first list item.</li>
+  <li>
+    <p>Here’s the second list item.</p>
+
+    <blockquote>
+      <p>A blockquote would look great below the second list item.</p>
+    </blockquote>
+  </li>
+  <li>And here’s the third list item.</li>
+</ul>
+
+<h4 id="code-blocks-1">Code Blocks</h4>
+
+<p><a href="#code-blocks">Code blocks</a> are normally indented four spaces or one tab.  When they’re in a list, indent them eight spaces or two tabs.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1.  Open the file.
+2.  Find the following code block on line 21:
+
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt;Test&lt;/title&gt;
+          &lt;/head&gt;
+
+3.  Update the title to match the name of your website.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<ol>
+  <li>Open the file.</li>
+  <li>
+    <p>Find the following code block on line 21:</p>
+
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Test&lt;/title&gt;
+  &lt;/head&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>Update the title to match the name of your website.</li>
+</ol>
+
+<h4 id="images">Images</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1.  Open the file containing the Linux mascot.
+2.  Marvel at its beauty.
+
+    ![Tux, the Linux mascot](/assets/images/tux.png)
+
+3.  Close the file.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<ol>
+  <li>Open the file containing the Linux mascot.</li>
+  <li>
+    <p>Marvel at its beauty.</p>
+
+    <p><img src="/assets/images/tux.png" alt="Tux, the Linux mascot" /></p>
+  </li>
+  <li>Close the file.</li>
+</ol>
+:ET

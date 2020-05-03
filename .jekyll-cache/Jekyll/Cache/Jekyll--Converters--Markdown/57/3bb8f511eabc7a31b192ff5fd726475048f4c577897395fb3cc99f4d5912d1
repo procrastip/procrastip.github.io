@@ -1,0 +1,333 @@
+I"«O<div class="row">
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px;"><span class="emoji" style="font-size:30px">ðŸ‘‹</span>&nbsp;&nbsp;&nbsp;Howdy!</h4>
+        <p class="card-text">This is the start of a comprehensive Markdown tool directory. Compiling all this will take some time! <a href="https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory">Learn how to contribute.</a></p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/bear/"><img src="/assets/images/tool-icons/bear.png" alt="Bear logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Bear</h4>
+        <p class="card-text">Bear is a Markdown notes application for macOS and iOS devices.</p>
+        <a href="/tools/bear/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/boostnote/"><img src="/assets/images/tool-icons/boostnote.png" alt="Boostnote logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Boostnote</h4>
+        <p class="card-text">Boostnote is a Markdown note taking application for developers.</p>
+        <a href="/tools/boostnote/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/codimd/"><img src="/assets/images/tool-icons/codimd.png" alt="CodiMD logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;CodiMD</h4>
+        <p class="card-text">CodiMD is an open-source real-time collaborative Markdown editor.</p>
+        <a href="/tools/codimd/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/dillinger/"><img src="/assets/images/tool-icons/dillinger.png" alt="Dillinger logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Dillinger</h4>
+        <p class="card-text">Dillinger is an online Markdown editor designed for on-the-go writing.</p>
+        <a href="/tools/dillinger/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/docusaurus/"><img src="/assets/images/tool-icons/docusaurus.png" alt="Docusaurus logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Docusaurus</h4>
+        <p class="card-text">Docusaurus converts Markdown files to a documentation website.</p>
+        <a href="/tools/docusaurus/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/ghost/"><img src="/assets/images/tool-icons/ghost.png" alt="Ghost logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Ghost</h4>
+        <p class="card-text">Ghost is an open source CMS renowned for its speed, simplicity, and ease of use.</p>
+        <a href="/tools/ghost/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/gitbook/"><img src="/assets/images/tool-icons/gitbook.png" alt="GitBook logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;GitBook</h4>
+        <p class="card-text">GitBook is a hosted solution for documentation websites and knowledge bases.</p>
+        <a href="/tools/gitbook/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/github-pages/"><img src="/assets/images/tool-icons/github-pages.png" alt="GitHub Pages logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;GitHub Pages</h4>
+        <p class="card-text">GitHub Pages is a free service that turns Markdown files into a website.</p>
+        <a href="/tools/github-pages/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/hugo/"><img src="/assets/images/tool-icons/hugo.png" alt="Hugo logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Hugo</h4>
+        <p class="card-text">Hugo is a static site generator that converts Markdown files to a website.</p>
+        <a href="/tools/hugo/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/ia-writer/"><img src="/assets/images/tool-icons/ia-writer.png" alt="iA Writer logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;iA Writer</h4>
+        <p class="card-text">iA Writer is one of the most established and widely-acclaimed Markdown editors.</p>
+        <a href="/tools/ia-writer/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/imdone/"><img src="/assets/images/tool-icons/imdone.png" alt="Imdone logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Imdone</h4>
+        <p class="card-text">Imdone is a markdown based kanban board, that lives in your notes, docs, and code.</p>
+        <a href="/tools/imdone/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/jekyll/"><img src="/assets/images/tool-icons/jekyll.png" alt="Jekyll logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Jekyll</h4>
+        <p class="card-text">Jekyll is a static site generator that converts Markdown files to a website.</p>
+        <a href="/tools/jekyll/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/joplin/"><img src="/assets/images/tool-icons/joplin.png" alt="Joplin logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Joplin</h4>
+        <p class="card-text">Joplin is a note taking application that respects your privacy.</p>
+        <a href="/tools/joplin/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/macdown/"><img src="/assets/images/tool-icons/macdown.png" alt="MacDown logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;MacDown</h4>
+        <p class="card-text">MacDown is one of the best Markdown editors available for macOS.</p>
+        <a href="/tools/macdown/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/mark-text/"><img src="/assets/images/tool-icons/mark-text.png" alt="Mark Text logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Mark Text</h4>
+        <p class="card-text">Mark Text is a popular free and open-source editor designed for Markdown.</p>
+        <a href="/tools/mark-text/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/markdeep/"><img src="/assets/images/tool-icons/markdeep.png" alt="Markdeep logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Markdeep</h4>
+        <p class="card-text">Markdeep turns any Markdown file into a self-contained HTML file.</p>
+        <a href="/tools/markdeep/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/markdown-here/"><img src="/assets/images/tool-icons/markdown-here.png" alt="Markdown Here logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Markdown Here</h4>
+        <p class="card-text">Markdown Here is a browser extension that converts Markdown text in web forms.</p>
+        <a href="/tools/markdown-here/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/mattermost/"><img src="/assets/images/tool-icons/mattermost.png" alt="Mattermost logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Mattermost</h4>
+        <p class="card-text">Mattermost is an open source messaging and team collaboration application.</p>
+        <a href="/tools/mattermost/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/mkdocs/"><img src="/assets/images/tool-icons/mkdocs.png" alt="MkDocs logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;MkDocs</h4>
+        <p class="card-text">MkDocs is a static site generator for building documentation websites.</p>
+        <a href="/tools/mkdocs/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/modako/"><img src="/assets/images/tool-icons/modako.png" alt="Modako logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Modako</h4>
+        <p class="card-text">Madoko is an application for writing professional articles and more.</p>
+        <a href="/tools/modako/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/notable/"><img src="/assets/images/tool-icons/notable.png" alt="Notable logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Notable</h4>
+        <p class="card-text">Notable is a bare-bones note taking application with great Markdown support.</p>
+        <a href="/tools/notable/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/notion/"><img src="/assets/images/tool-icons/notion.png" alt="Notion logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Notion</h4>
+        <p class="card-text">Notion is an all-in-one knowledge management solution for everyone.</p>
+        <a href="/tools/notion/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/reddit/"><img src="/assets/images/tool-icons/reddit.png" alt="Reddit logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Reddit</h4>
+        <p class="card-text">Reddit is a popular online community that supports posting in Markdown.</p>
+        <a href="/tools/reddit/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/simplenote/"><img src="/assets/images/tool-icons/simplenote.png" alt="Simplenote logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Simplenote</h4>
+        <p class="card-text">Simplenote is a cross-platform Markdown notes application.</p>
+        <a href="/tools/simplenote/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/slack/"><img src="/assets/images/tool-icons/slack.png" alt="Slack logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Slack</h4>
+        <p class="card-text">Slack is a messaging and team collaboration application.</p>
+        <a href="/tools/slack/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/squarespace/"><img src="/assets/images/tool-icons/squarespace.png" alt="Squarespace logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Squarespace</h4>
+        <p class="card-text">Squarespace is a popular subscription service for building websites.</p>
+        <a href="/tools/squarespace/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/stackedit/"><img src="/assets/images/tool-icons/stackedit.png" alt="StackEdit logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;StackEdit</h4>
+        <p class="card-text">StackEdit is a powerful online Markdown editor you can use anywhere.</p>
+        <a href="/tools/stackedit/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/standard-notes/"><img src="/assets/images/tool-icons/standard-notes.png" alt="Standard Notes logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Standard Notes</h4>
+        <p class="card-text">Standard Notes is an elegant, open-source note taking application. </p>
+        <a href="/tools/standard-notes/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/trello/"><img src="/assets/images/tool-icons/trello.png" alt="Trello logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Trello</h4>
+        <p class="card-text">Trello is a kanban-style project management application.</p>
+        <a href="/tools/trello/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/typora/"><img src="/assets/images/tool-icons/typora.png" alt="Typora logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Typora</h4>
+        <p class="card-text">Typora is a simple and configurable editor designed for notes and documents.</p>
+        <a href="/tools/typora/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/ulysses/"><img src="/assets/images/tool-icons/ulysses.png" alt="Ulysses logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Ulysses</h4>
+        <p class="card-text">Ulysses is a popular writing application for macOS and iOS devices.</p>
+        <a href="/tools/ulysses/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3" style="padding-top:20px">
+    <div class="card" style="width: 16rem; height: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title no-anchor" style="margin-top: -20px; font-size: 20px;"><a href="/tools/zettlr/"><img src="/assets/images/tool-icons/zettlr.png" alt="Zettlr logo" style="width:50px; margin-top:-5px" /></a>&nbsp;&nbsp;Zettlr</h4>
+        <p class="card-text">Zettlr is an open source Markdown editor designed for academic writing.</p>
+        <a href="/tools/zettlr/" class="btn btn-outline-secondary btn-sm">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+:ET

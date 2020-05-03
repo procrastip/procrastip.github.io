@@ -1,0 +1,168 @@
+I"
+<p><a href="https://gohugo.io">Hugo</a> is a popular static site generator written in the Go programming language. Hugo is jam-packed with features, but one of its main selling points is speed — Hugo takes mere seconds to generate a site with thousands of pages. <a href="https://www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/">Smashing Magazine</a> recently switched to Hugo from WordPress.</p>
+
+<p>Hugo has excellent Markdown support out of the box. By default, Hugo uses the <a href="https://github.com/yuin/goldmark/">Goldmark</a> Markdown processor which is fully <a href="https://commonmark.org/">CommonMark</a>-compliant. See the <a href="https://gohugo.io/getting-started/configuration-markup/">configuration instructions</a> to learn more about the extensions you can configure. You can change Hugo’s Goldmark settings in the <code class="highlighter-rouge">config.toml</code> file, as shown below.</p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">baseURL</span> <span class="p">=</span> <span class="s">"http://mysite.org/"</span>
+<span class="py">languageCode</span> <span class="p">=</span> <span class="s">"en-us"</span>
+<span class="py">title</span> <span class="p">=</span> <span class="s">"My Site"</span>
+<span class="py">theme</span> <span class="p">=</span> <span class="s">"ananke"</span>
+
+<span class="nn">[markup]</span>
+<span class="py">taskLists</span> <span class="p">=</span> <span class="kc">false</span>
+</code></pre></div></div>
+
+<h3 id="hugo-markdown-support">Hugo Markdown Support</h3>
+
+<p>Hugo provides support for the following Markdown elements using its default <a href="https://gohugo.io/getting-started/configuration-markup/#goldmark">Goldmark</a> Markdown processor.</p>
+
+<table class="table table-bordered" style="font-size: 14px">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Support</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/basic-syntax#headings">Headings</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#bold">Bold</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#italic">Italic</a></td>
+      <td class="table-success">Yes</td>
+      <td>By default, using asterisks and underscores in the middle of a word doesn't work you way expect (e.g., <code>in*middle*here</code> and <code>in_middle_here</code> are rendered literally). You can disable the <a href="https://gohugo.io/content-management/formats/#blackfriday-extensions"><code>noIntraEmphasis</code> extension</a> to restore the conventional Markdown functionality.</td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax#code">Code</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#links">Links</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#images-1">Images</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#tables">Tables</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default. Syntax highlighting is also supported.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
+      <td class="table-success">Yes</td>
+      <td>Enabled by default.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="support-for-additional-syntax-elements">Support for Additional Syntax Elements</h3>
+
+<p>As an added bonus, Hugo provides support for several obscure elements. These are disabled by default, but you can enable them in the <code class="highlighter-rouge">config.toml</code> file.</p>
+
+<table class="table table-bordered" style="font-size: 14px">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Markdown</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Emoji</td>
+    <td><code>:joy:</code></td>
+    <td>😂</td>
+  </tr>
+  </tbody>
+</table>
+
+<h3 id="see-also">See Also</h3>
+
+<ul>
+  <li><a href="https://gohugo.io/content-management/formats/">Hugo Supported Content Formats</a></li>
+  <li><a href="https://github.com/yuin/goldmark/">Goldmark GitHub repository</a></li>
+</ul>
+:ET
